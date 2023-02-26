@@ -5,8 +5,8 @@ import json
 from . import common
 from qdata.errors import QdataError, ErrorCode
 
-ALL_KIND = ['all', 'pc', 'wise']
-
+# ALL_KIND = ['all', 'pc', 'wise']
+ALL_KIND = ['all']
 
 def get_search_index(
     *,
