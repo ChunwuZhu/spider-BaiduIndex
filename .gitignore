@@ -7,4 +7,7 @@ qdata.egg-info/
 build/
 dist/
 
+*.csv
+*.xls
+8.xlsx
 test.py
