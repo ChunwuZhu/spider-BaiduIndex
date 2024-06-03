@@ -6,6 +6,8 @@
 3. 请求容错
 4. 容错后并保留当前已经请求过的数据，并print已请求过的keywords
 """
+import sys
+sys.path.insert(0,r'D:\code\spider-BaiduIndex\qdata\baidu_index')
 from queue import Queue
 from typing import Dict, List
 import traceback
@@ -15,8 +17,7 @@ import pandas as pd
 from qdata.baidu_index import get_search_index
 from qdata.baidu_index.common import check_keywords_exists, split_keywords
 
-import sys
-sys.path.insert(0,r'D:\code\spider-BaiduIndex\qdata\baidu_index')
+
 import config as cn
 
 
